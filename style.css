@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 1, 49);
+}
+.main{
+    max-width: auto;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#heading{
+    color: white;
+}
+#input{
+    background-color: rgb(12, 1, 49);
+    border: 0;
+    border-bottom: 2px solid gray;
+    width: 400px;
+    height: 30px;
+    color: white;
+}
+#add{
+    background-color: rgb(0, 157, 68);
+    height: 30px;
+    width: 50px;
+}
+.cantainer{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+}
+.list{
+    background-color: rgba(0, 0, 0, 0.603);
+    border: 1px solid black;
+    margin: 20px ;
+    padding: 10px 25px ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btns{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns button{
+    color: white ;
+    font-weight: bolder;
+    padding: 10px;
+}
+.del{
+    background-color: rgb(0, 157, 68);
+
+}
+.edit{
+    background-color: rgb(209, 53, 53);
+}
+.form-to-edit{
+    background-color: white;
+    color: black;
+    width: 500px;
+    position: fixed;
+    left: 32%;
+    bottom: 200px;
+}
+#edited{
+    border: 0;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+#btns2{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin: 20px auto;
+}
+#save{
+    padding: 10px ;
+    background-color: rgb(46, 46, 180);
+    font-weight: bolder;
+    
+    
+}
+#cancel{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(209, 53, 53);
+}
